@@ -1,0 +1,17 @@
+// background
+
+@each $key, $value in $background {
+    .background-#{$key} {
+        background: #{$value};
+    }
+}
+
+// @each $key, $value in $background {
+//     @each $bp-key, $bp-value in $breakpoints {
+//         .bg-#{$bp-key}-#{$key} {   
+//             @media(min-width: #{$bp-value}) {
+//                 background: #{$value};                
+//             }
+//         }
+//     }
+// }

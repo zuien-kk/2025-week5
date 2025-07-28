@@ -1,0 +1,30 @@
+$style-map: (
+  box: (width,height),
+  w: (width),
+  p: (padding),
+  py: (padding-top,padding-bottom),
+  me: (margin-right),
+  gx: (column-gap),
+  gy: (--col-gap-y),
+  gw: (--col-width),
+);
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$background: (
+  secondary: #F0F3F5,
+);
+
+
+
+
+
+
+
+

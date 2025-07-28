@@ -1,0 +1,45 @@
+
+// 複製助教的基本樣式設定
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #141a1f;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+
+
+.g-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--gy) * -1);
+  & > * {
+    margin-top: var(--gy);
+    width: var(--gw);
+  }
+}
